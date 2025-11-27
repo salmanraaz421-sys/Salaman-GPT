@@ -1,0 +1,16 @@
+{
+  "name": "salamangpt-image-ai",
+  "version": "1.0.0",
+  "description": "SalamanGPT Image Generator using Bytez.js + Imagen 4.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "bytez.js": "*",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
