@@ -1,7 +1,7 @@
 {
   "name": "salamangpt-image-ai",
-  "version": "1.0.0",
-  "description": "SalamanGPT Image Generator using Bytez.js + Imagen 4.0",
+  "version": "2.0.0",
+  "description": "SalamanGPT Advanced Image Generator - 2000 Images Support with Long Prompts",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -12,5 +12,13 @@
     "bytez.js": "*",
     "cors": "^2.8.5",
     "express": "^4.18.2"
-  }
+  },
+  "keywords": [
+    "ai",
+    "image-generation",
+    "imagen",
+    "bytez"
+  ],
+  "author": "SalamanGPT",
+  "license": "MIT"
 }
