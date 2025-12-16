@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
 
 // Updated API Key
-const key = "9019dc54b38709bf371cbf5882fdcf86";
+const key = "932efd17470a3ecdaff2360bd1eea94b";
 const sdk = new Bytez(key);
 const model = sdk.model("google/imagen-4.0-generate-001");
 
